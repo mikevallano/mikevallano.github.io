@@ -1,7 +1,15 @@
+---
+sass:
+    sass_dir: _sass
+---
+
+
 $main: #1a222c;
+$main_bg: #59407f;
 $sec: #4B5664;
 $purple: #54516A;
 $cut: 768px;
+
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -55,7 +63,8 @@ body {
 }
 
 #particles-js {
-  background: $main;
+  // background: $main_bg;
+  background-color: #fd4f31 !important;
   display: block;
   vertical-align: bottom;
   width: 100vw;
