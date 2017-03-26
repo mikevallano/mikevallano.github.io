@@ -1,8 +1,3 @@
----
-sass:
-    sass_dir: _sass
----
-
 
 $main: #1a222c;
 $main_bg: #59407f;
@@ -16,6 +11,7 @@ $cut: 768px;
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background: #f2f1f1;
 }
 
 @-webkit-keyframes pulse {
@@ -63,8 +59,7 @@ body {
 }
 
 #particles-js {
-  // background: $main_bg;
-  background-color: #fd4f31 !important;
+  background-color: #432d6e;
   display: block;
   vertical-align: bottom;
   width: 100vw;
@@ -206,13 +201,14 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    border: 3px solid #d9d7d7;
   }
   h5 {
     margin: 0;
   }
   li {
     color: $main;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   p {
     margin-right: 5px;
@@ -227,7 +223,7 @@ body {
 
 .project-link {
   display: block;
-  width: 100px;
+  width: 125px;
   margin: 10px 0px;
   padding: 5px;
   color: $main;
